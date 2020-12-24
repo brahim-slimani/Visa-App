@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anc" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="1223.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="VisaApp.controller.FifthFormController">
+    <children>
+        <ImageView fitHeight="751.0" fitWidth="1227.0" layoutX="-1.0" layoutY="-24.0" pickOnBounds="true">
+            <image>
+                <Image url="@../assets/img/background.jpg" />
+            </image>
+        </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0edf0" height="751.0" layoutX="-1.0" layoutY="-28.0" stroke="BLACK" strokeType="INSIDE" style="-fx-opacity: 0.7;" width="1227.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="559.0" layoutX="197.0" layoutY="40.0" stroke="#3dd03d" strokeType="INSIDE" style="-fx-opacity: 0.6;" width="675.0" />
+        <ImageView fitHeight="273.0" fitWidth="406.0" layoutX="323.0" layoutY="187.0" pickOnBounds="true">
+            <image>
+                <Image url="@../assets/img/4.jpg" />
+            </image>
+        </ImageView>
+
+        <Label layoutX="329.0" layoutY="47.0" prefHeight="50.0" prefWidth="446.0" text="Demande de Visa Schengen">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="291.0" layoutX="316.0" layoutY="180.0" stroke="#20ff20" strokeType="INSIDE" style="-fx-opacity: 0.5;" width="421.0" />
+        <JFXButton layoutX="448.0" layoutY="386.0" mnemonicParsing="false" onAction="#print" prefHeight="35.0" prefWidth="158.0" style="-fx-background-color: #646060;" text=" Impression" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/img/pr3.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="1.0" layoutX="241.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.2" width="588.0" />
+
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#969696" height="285.0" layoutX="1054.0" layoutY="197.0" stroke="#969696" strokeType="INSIDE" width="3.0" />
+
+        <JFXButton layoutX="969.0" layoutY="158.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="169.0" style="-fx-background-color: #48ff60; -fx-background-radius: 100;" text="ETAPE 01" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/img/check.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton layoutX="969.0" layoutY="462.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="169.0" style="-fx-background-color: #48ff60; -fx-background-radius: 100;" text="ETAPE 04" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/img/check.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton layoutX="969.0" layoutY="361.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="169.0" style="-fx-background-color: #48ff60; -fx-background-radius: 100;" text="ETAPE 03" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/img/check.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+        <JFXButton layoutX="969.0" layoutY="257.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="169.0" style="-fx-background-color: #48ff60; -fx-background-radius: 100;" text="ETAPE 02" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <graphic>
+                <ImageView fitHeight="20.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../assets/img/check.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </JFXButton>
+      <Label layoutX="437.0" layoutY="187.0" prefHeight="82.0" prefWidth="298.0" text="Félécitation !!!" textFill="#2c4197">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="269.0" prefHeight="41.0" prefWidth="309.0" text="Votre demande a été prise en charge">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="266.0" prefHeight="88.0" prefWidth="68.0" text="...">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+
+
+    </children>
+</AnchorPane>
